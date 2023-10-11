@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hexagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="products.css">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="header__logo">
+            <svg
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                height="24"
+                width="24">
+                <path
+                    id="logo"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6 15.2348L12 18.5681L18 15.2348V8.76521L12 5.43188L6 8.76521V15.2348ZM12 2L3 7V17L12 22L21 17V7L12 2Z"
+                    fill="currentColor"
+                />
+            </svg>
+            hexagram
+        </a>
+        <div class="header__search">
+            <input type="search" id="header-search" placeholder="">
+            <label for="header-search">Rechercher un produit, une marque, ...</label>
+            <button class="header__search__button">
+        </div>
+        <div class="header__icons">
+            <a href="" class="header__icons__icon header__icons__icon--account">
+                <img src="./assets/icons/account.svg" alt="">
+            </a>
+            <a href="" class="header__icons__icon header__icons__icon--cart">
+                <img src="./assets/icons/cart-1-svgrepo-com.svg" alt="">
+                <div class="header__icons__cart-quantity">28</div>
+            </a>
+        </div>
+        <nav class="header__nav nav">
+            <div class="nav__category">
+                <a class="nav__category__link" href="./pagelist.html">Lorem.</a>
+                <ul class="nav__category__sublinks">
+                    <li><a class="nav__category__sublink" href="./product.html">Lorem.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Odio.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Dolores!</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Amet.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Laboriosam!</a></li>
+                </ul>
+            </div>
+            <div class="nav__category">
+                <a class="nav__category__link" href="./pagelist.html">Voluptas.</a>
+                <ul class="nav__category__sublinks">
+                    <li><a class="nav__category__sublink" href="./product.html">Lorem.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Repellat.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Ratione.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Minus!</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Asperiores.</a></li>
+                </ul>
+            </div>
+            <div class="nav__category">
+                <a class="nav__category__link" href="./pagelist.html">Reprehenderit?</a>
+                <ul class="nav__category__sublinks">
+                    <li><a class="nav__category__sublink" href="./product.html">Lorem.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Iure!</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Sapiente.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Delectus.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Cumque.</a></li>
+                </ul>
+            </div>
+            <div class="nav__category">
+                <a class="nav__category__link" href="./pagelist.html">Eum?</a>
+                <ul class="nav__category__sublinks">
+                    <li><a class="nav__category__sublink" href="./product.html">Lorem.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Sunt.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Excepturi!</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Est.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Aliquid?</a></li>
+                </ul>
+            </div>
+            <div class="nav__category">
+                <a class="nav__category__link" href="./pagelist.html">Expedita.</a>
+                <ul class="nav__category__sublinks">
+                    <li><a class="nav__category__sublink" href="./product.html">Lorem.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Reiciendis!</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Saepe.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Quibusdam.</a></li>
+                    <li><a class="nav__category__sublink" href="./product.html">Quos?</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="product">
+                <a href="#" class="product__link"><img src="http://placehold.it/200x200" alt="" class="product__image"></a>
+                <div class="product__infos">
+                    <div class="product__title">Rerum, inventore maxime?</div>
+                    <div class="product__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus harum animi debitis officiis magni doloribus quisquam rerum nobis, delectus, culpa reprehenderit perspiciatis tempora saepe commodi ipsa. Reprehenderit, accusantium blanditiis.</div>
+                    <div class="product__price">00€00 TTC</div>
+                    <div class="product__quantity"><button class="product__quantity__less"></button><input type="number" class="product__quantity__amount"><button class="product__quantity__more"></button></div>
+                    <button class="product__quantity__add-to-cart">add to cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./products.js"></script>
+</body>
+</html>

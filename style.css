@@ -1,0 +1,88 @@
+
+/* css variables */
+:root {
+	--black-transparent: rgba(0,0,0,.5);
+	--white-transparent: rgba(255,255,255,.9);
+
+	/* nav  */
+	--nav-border-radius: .5rem;
+	--nav-bg-color: var(--black-transparent);
+
+	/* titre */
+	--nav-link-color: var(--white-transparent);
+	--nav-link-color-hover: #222;
+	--nav-link-bg-color-hover: rgba(255,255,255,.8);
+
+	/* categorie  */
+	--nav-sublinks-bg-color: rgba(0,0,0,.75);
+
+	/* liens categories  */
+	--nav-sublink-color: var(--white-transparent);
+	--nav-sublink-bg-color-hover: var(--black-transparent);
+}
+/* css variables - END */
+
+/* reset style natif */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+input[type="search"] {
+    -webkit-appearance: none;
+}
+::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar {
+    height: .4rem;
+    width: .4rem;
+}
+::-webkit-scrollbar-track {
+    background-color: indigo;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,.5);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255,255,255,.75);
+}
+/* reset style natif - END */
+
+
+/* styles globaux */
+* {
+    box-sizing: border-box;
+}
+body {
+	background: linear-gradient(45deg,hsla(168, 85%, 52%, 0.7),hsla(263, 88%, 45%, 0.7) 100%), url('https://w.wallhaven.cc/full/ex/wallhaven-ex9gwo.png') no-repeat center center/cover fixed;
+    background-blend-mode: saturation;
+    font: 16px/1.25em sans-serif;
+    margin: 0;
+}
+main {
+    margin: 1rem auto;
+    max-width: 80rem;
+    padding: 1rem;
+}
+section {
+    background: rgba(255,255,255,.5);
+    border-radius: .5rem;
+    display: block;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+p {
+    margin: 0 0 1rem;
+}
+pre, code {
+    background-color: rgba(30,0,50,.75);
+    border-radius: .5rem;
+    color: var(--white-transparent);
+    padding: 1rem 1.5rem;
+}
+pre {
+    overflow: auto;
+}
+/* styles globaux - END */
